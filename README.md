@@ -16,6 +16,10 @@ This repository is a Codex local skill. The skill entrypoint is [`SKILL.md`](./S
 
 - See [CHANGELOG.md](./CHANGELOG.md) for the initial release notes.
 
+## Related Skills
+
+- For a concrete execution-layer skill that uses this experiment discipline for parser, smuggling, and visibility retest work, see [`waf-ips-ids-retest`](https://github.com/windshock/waf-ips-ids-retest).
+
 ## Use
 
 Copy this folder into your local Codex skills directory as `security-hypothesis-lab`, then trigger it with:
