@@ -58,3 +58,5 @@ Use these references as needed:
 - Use this skill to decide the next experiment and the strength of the resulting claim.
 - Use domain skills such as `$waf-ips-ids-retest`, `$sec-audit-static`, or `$security-architecture-review` to execute the domain-specific work.
 - When those skills start to accumulate interpretation logic that is really about premises and hypothesis control, move that logic back into this skill.
+- For an independent audit of the loop's results (replay fidelity, observer completeness, oracle integrity, algorithm/treatment fidelity, statistics, model-update approval), hand them to [`six-lens-research-review`](https://github.com/windshock/six-lens-research-review) (gates G1-G6, evidence tiers). Keep the executor and the auditor separate where possible so the loop does not approve its own conclusions.
+- Interpreter/runtime lifecycle research and fuzzing campaigns in an isolated lab also fit this loop: write the exit rule, including the conditions that make a comparison invalid rather than falsified, before each run.

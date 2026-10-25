@@ -19,6 +19,7 @@ This repository is a Codex local skill. The skill entrypoint is [`SKILL.md`](./S
 ## Related Skills
 
 - For a concrete execution-layer skill that uses this experiment discipline for parser, smuggling, and visibility retest work, see [`waf-ips-ids-retest`](https://github.com/windshock/waf-ips-ids-retest).
+- For the independent audit layer (six perspectives, validity gates G1-G6, evidence tiers), see [`six-lens-research-review`](https://github.com/windshock/six-lens-research-review). This skill chooses and runs the next experiment; that skill judges whether the result supports the claim.
 
 ## Use
 

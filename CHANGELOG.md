@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased (local draft)
+
+### Added
+
+- link to the `six-lens-research-review` audit layer and the executor/auditor separation rule
+- `invalid if ...` line in the exit-rule template
+- note that interpreter lifecycle research and fuzzing campaigns fit the loop
+
 ## 2026-03-30
 
 ### Added
